@@ -15,3 +15,9 @@ https://github.com/fridim/nagios-plugin-check_galera_cluster
 check_mem.pl
 
 https://exchange.nagios.org/directory/Plugins/Operating-Systems/Linux/check_mem/details
+
+---
+
+check_iftraffic64.pl
+
+https://exchange.nagios.org/directory/Plugins/Network-Connections%2C-Stats-and-Bandwidth/check_iftraffic64/details
