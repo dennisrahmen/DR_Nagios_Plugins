@@ -12,12 +12,6 @@ https://github.com/fridim/nagios-plugin-check_galera_cluster
 
 ---
 
-check_nginx_status
-
-https://github.com/regilero/check_nginx_status
-
----
-
 check_mem.pl
 
 https://exchange.nagios.org/directory/Plugins/Operating-Systems/Linux/check_mem/details
