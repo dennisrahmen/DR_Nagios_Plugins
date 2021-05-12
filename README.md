@@ -15,3 +15,9 @@ https://github.com/fridim/nagios-plugin-check_galera_cluster
 check_mem.pl
 
 https://exchange.nagios.org/directory/Plugins/Operating-Systems/Linux/check_mem/details
+
+---
+
+check_mysql_connections
+
+https://exchange.nagios.org/directory/Plugins/Databases/MySQL/Check-MySQL-Connections/details
