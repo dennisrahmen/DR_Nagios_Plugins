@@ -719,7 +719,7 @@ for ($i=0;$i<scalar(@o_varsL);$i++) {
     }
     if ($dataresults{$o_varsL[$i]}[1]==0) {
 	$dataresults{$o_varsL[$i]}[1]++;
-	$statusdata .= " /n" . $o_varsL[$i] . "=" . $dataresults{$o_varsL[$i]}[0];
+	$statusdata .= " " . $o_varsL[$i] . "=" . $dataresults{$o_varsL[$i]}[0];
     }
     if (defined($o_perf) && $dataresults{$o_varsL[$i]}[2]==0) {
 	$dataresults{$o_varsL[$i]}[2]++;
