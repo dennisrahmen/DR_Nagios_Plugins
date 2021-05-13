@@ -21,3 +21,9 @@ https://exchange.nagios.org/directory/Plugins/Operating-Systems/Linux/check_mem/
 check_mysql_connections
 
 https://exchange.nagios.org/directory/Plugins/Databases/MySQL/Check-MySQL-Connections/details
+
+---
+
+check_mysqld
+
+https://exchange.nagios.org/directory/Plugins/Databases/MySQL/check_mysqld/details
