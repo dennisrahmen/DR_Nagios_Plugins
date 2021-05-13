@@ -719,11 +719,11 @@ for ($i=0;$i<scalar(@o_varsL);$i++) {
     }
     if ($dataresults{$o_varsL[$i]}[1]==0) {
 	$dataresults{$o_varsL[$i]}[1]++;
-	$statusdata .= " \n" . $o_varsL[$i] . "=" . $dataresults{$o_varsL[$i]}[0];
+	$statusdata .= " \n" . $o_varsL[$i] . " = " . $dataresults{$o_varsL[$i]}[0];
     }
     if (defined($o_perf) && $dataresults{$o_varsL[$i]}[2]==0) {
 	$dataresults{$o_varsL[$i]}[2]++;
-        $perfdata .= " " . $o_varsL[$i] . "=" . $dataresults{$o_varsL[$i]}[0];
+        $perfdata .= " \n" . $o_varsL[$i] . " = " . $dataresults{$o_varsL[$i]}[0];
         if (defined($o_warnL[$i][5]) && defined($o_critL[$i][5])) {
 	    $perfdata .= ';' if $o_warnL[$i][5] ne '' || $o_critL[$i][5] ne '';
 	    $perfdata .= $o_warnL[$i][5] if $o_warnL[$i][5] ne '';
