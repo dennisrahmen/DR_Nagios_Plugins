@@ -27,3 +27,9 @@ https://exchange.nagios.org/directory/Plugins/Databases/MySQL/Check-MySQL-Connec
 check_mysqld
 
 https://exchange.nagios.org/directory/Plugins/Databases/MySQL/check_mysqld/details
+
+---
+
+check_mountpoints.sh
+
+https://exchange.nagios.org/directory/Plugins/System-Metrics/File-System/check-mountpoints-like-nfs,-cifs,-davfs,-lustre,-ocf2,-etc-2E/details
